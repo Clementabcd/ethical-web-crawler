@@ -2,8 +2,8 @@
 
 A GUI-based ethical web crawler that respects robots.txt rules and offers customizable crawling.
 
-![Screenshot](https://via.placeholder.com/800x600.png?text=Ethical+Web+Crawler+v2.0)  
-*Example interface (replace with actual screenshot)*
+![Screenshot](Screenshot.png)  
+*Example interface*
 
 ## ✨ Features
 
@@ -32,7 +32,7 @@ A GUI-based ethical web crawler that respects robots.txt rules and offers custom
 
 2. **Installation**:
    ```bash
-   git clone https://github.com/yourusername/ethical-web-crawler.git
+   git clone https://github.com/Clementabcd/ethical-web-crawler.git
    cd ethical-web-crawler
    pip install -r requirements.txt
    ```
