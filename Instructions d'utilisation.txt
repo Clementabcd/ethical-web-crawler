@@ -1,0 +1,41 @@
+INSTRUCTIONS D'INSTALLATION ET COMPILATION
+=========================================
+
+Prérequis:
+- Python 3.7+ installé
+- pip fonctionnel
+
+Étapes:
+1. Créer un dossier pour le projet
+2. Sauvegarder le code principal dans 'web_crawler.py'
+3. Créer le fichier 'requirements.txt' avec le contenu fourni
+4. Exécuter le script de build
+
+Commandes:
+----------
+# Installation manuelle des dépendances
+pip install requests pyinstaller
+
+# Compilation en exécutable
+pyinstaller --onefile --windowed --name=WebCrawlerEthique web_crawler.py
+
+# Ou utiliser le script automatique
+python build_script.py
+
+Fonctionnalités éthiques incluses:
+- Respect du robots.txt
+- Délai configurable entre requêtes
+- Limitation du nombre de sites
+- User-Agent identifiable
+- Gestion des timeouts
+- Export des résultats (JSON, CSV, TXT)
+
+Structure des fichiers exportés:
+- URL du site
+- Titre de la page
+- Code de statut HTTP
+- Taille du contenu
+- Temps de réponse
+- Timestamp de découverte
+
+You can translate this texte to English with a translator if you need.
